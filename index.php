@@ -83,7 +83,8 @@ include('config.php');
 	<script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
 	<script src="<?php echo INCLUDE_PATH; ?>js/google_maps.js"></script>
 	<script src="<?php echo INCLUDE_PATH; ?>js/slider.js"></script>
-	<!--erro neste script
-	<script src="<?php echo INCLUDE_PATH; ?>js/formularios.js"></script>-->
+	<script src="<?php echo INCLUDE_PATH; ?>js/jquery.ajaxForm.js"></script>
+	<script src="<?php echo INCLUDE_PATH; ?>js/carregar.js"></script>
+	
 </body>
 </html>

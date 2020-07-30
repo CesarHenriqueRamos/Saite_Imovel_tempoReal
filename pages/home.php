@@ -41,7 +41,7 @@ if(@$_POST['pesquisar']){
 <section class="busca">
     <div class="container">
         
-        <form action="" method="post">
+        <form action="<?php echo INCLUDE_PATH; ?>ajax/formularios.php" method="post">
         <div class="box-form w33">
                 <label for="preco">O que você precisa?</label>
                 <br>
@@ -87,8 +87,7 @@ if(@$_POST['pesquisar']){
                     <option <?php if($area == '200') echo 'selected' ?> value="200"> até 200m²</option>
                 </select>
             </div>
-            <div class="box-form w33">
-               <input type="submit" name="pesquisar" value="Pesquisar">
+           
         </form>
         <div class="clear"></div>
     </div><!--container-->
@@ -109,7 +108,7 @@ if(@$_POST['pesquisar']){
             ?>
        <div class="imovel-single">
             <div class="imagem-imovel">
-                <img src="painel/uploads/<?php echo $imagem_imovel['imagem'];?>" alt="">
+                <img src="<?php echo INCLUDE_PATH_PAINEL ?>/uploads/<?php echo $imagem_imovel['imagem'];?>" alt="">
             </div>
             <div class="dados-imovel">
                 <div class="w50">
