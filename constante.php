@@ -9,7 +9,7 @@ $autoload = function($class){
 };
 
 spl_autoload_register($autoload);
-define('INCLUDE_PATH','http://localhost/Meus_Projetos/Sistema_de_Imoveis/');
+define('INCLUDE_PATH','http://localhost/Sistema_de_Imoveis/');
 define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'painel/');
 
 define('BASE_DIR_PAINEL',__DIR__.'/painel');
